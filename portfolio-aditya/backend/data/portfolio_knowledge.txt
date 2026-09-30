@@ -1,0 +1,29 @@
+# Portfolio Knowledge Base
+# Each entry below is a standalone chunk used for retrieval. Keep entries short
+# and factual — one idea per chunk works best for semantic search.
+
+Aditya Raj is a BTech Computer Science Engineering student at Lovely Professional University (2024–2028), specializing in Data Analytics, Data Science, and Machine Learning.
+
+Aditya is interested in Data Analytics, Data Science, Machine Learning, and Artificial Intelligence. He enjoys working with data, building dashboards, developing predictive models, and creating practical software solutions.
+
+Aditya's core skills include Python, SQL, MySQL, C, C++, Java, and Data Structures.
+
+In Data Science and AI, Aditya works with Machine Learning, Deep Learning, TensorFlow, Keras, Computer Vision, Predictive Modeling, NLP, RAG (Retrieval-Augmented Generation), and LLM integration.
+
+In Data Analytics and Visualization, Aditya uses Power BI, Excel, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Data Cleaning, Exploratory Data Analysis, Statistics, and DAX.
+
+For development and tools, Aditya uses React.js, Vite, Tailwind CSS, FastAPI, REST APIs, Git, GitHub, VS Code, and Ollama.
+
+Project: Air Pollution Analysis & Prediction. An interactive data analytics and machine learning project for analyzing air pollution levels and predicting PM2.5 using pollutant-related features. Built with Python, Pandas, NumPy, Scikit-learn, Linear Regression, Power BI, and DAX. Features include data cleaning, exploratory data analysis, AQI/pollution analysis, an interactive Power BI dashboard, PM2.5 prediction, and data visualization.
+
+Project: Cat vs Dog Image Detection. A computer vision project using deep learning to classify images as cats or dogs. Built with Python, TensorFlow, Keras, CNN, NumPy, and Matplotlib. Features include image preprocessing, resizing, normalization, CNN model training, and image classification.
+
+Project: Resource Allocation Graph Visualizer. An interactive visualizer designed to demonstrate resource allocation, process-resource relationships, and operating-system deadlock concepts. Built with HTML, CSS, JavaScript, and algorithms.
+
+Project: Responsive Solid Waste Management Website. A responsive website designed to spread awareness about solid waste management and responsible waste disposal. Built with HTML, CSS, JavaScript, and responsive design principles.
+
+Project: AI-Powered Personal Portfolio. A modern portfolio website with an integrated AI chatbot capable of answering questions about Aditya's skills, projects, background, and contact information. Built with React.js, Vite, Tailwind CSS, Python, FastAPI, Llama 3.1 8B, Ollama, RAG, and nomic-embed-text.
+
+To contact Aditya, you can use the contact form on this website, email him, or connect on LinkedIn and GitHub. Contact links are available in the Contact section and the footer of this website.
+
+Aditya is seeking entry-level opportunities in Data Analytics, Data Science, and Machine Learning.

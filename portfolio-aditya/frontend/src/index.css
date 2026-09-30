@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-white font-body antialiased;
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(227,28,61,0.10), transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(168,85,247,0.08), transparent 35%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: #E31C3D;
+  color: #fff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2a30 transparent;
+}
+*::-webkit-scrollbar { width: 8px; }
+*::-webkit-scrollbar-thumb { background: #2a2a30; border-radius: 8px; }
+
+.section-heading {
+  @apply font-display font-bold text-3xl sm:text-4xl md:text-5xl tracking-tight;
+}
+
+.container-px {
+  @apply px-6 sm:px-10 lg:px-20;
+}
+
+.card {
+  @apply bg-base-card border border-base-border rounded-2xl;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:bg-accent-red hover:text-white;
+}
+
+.btn-outline {
+  @apply inline-flex items-center gap-2 border border-base-border text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:border-accent-red hover:text-accent-red;
+}
+
+.tag {
+  @apply px-4 py-1.5 rounded-full border border-base-border text-sm text-gray-300 bg-base-card/60;
+}
+
+/* Light mode — toggled via the navbar switch (adds .light-mode to <html>) */
+.light-mode body,
+html.light-mode body {
+  @apply bg-white text-gray-900;
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(227,28,61,0.06), transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(168,85,247,0.05), transparent 35%);
+}
+html.light-mode .card {
+  @apply bg-gray-50 border-gray-200;
+}
+html.light-mode .btn-outline {
+  @apply border-gray-300 text-gray-900;
+}
+html.light-mode .tag {
+  @apply border-gray-300 text-gray-600 bg-gray-50;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
